@@ -3,8 +3,8 @@
     <param name="scan_line" type="int" value="16" />  
     
     <!--- TF -->
-    <node pkg="tf" type="static_transform_publisher" name="camera_init_to_map"  args="0.081 0 0.409 1.570795  0  1.570795  map    camera_init 10" />
-    <node pkg="tf" type="static_transform_publisher" name="base_link_to_camera" args="-0.081 0 -0.409 -1.570795 -1.570795 0   camera base_link   10" />
+    <node pkg="tf" type="static_transform_publisher" name="camera_init_to_map"  args="0.081 0 0.409 1.570795  0  1.570795  map    camera_init 10" /> <!--- TF criada para simulação -->
+    <node pkg="tf" type="static_transform_publisher" name="base_link_to_camera" args="-0.081 0 -0.409 -1.570795 -1.570795 0   camera base_link   10" /> <!--- TF criada para simulação -->
 
     <!-- if 1, do mapping 10 Hz, if 2, do mapping 5 Hz. Suggest to use 1, it will adjust frequence automaticlly -->
     <param name="mapping_skip_frame" type="int" value="1" />
