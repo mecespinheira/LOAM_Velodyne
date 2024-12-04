@@ -7,6 +7,13 @@ Este repositório apresenta os recursos utilizados para realização da disserta
   
 Teste
 
+## Como rodar os arquivos
+
+
 ## Resultados
 
-## 
+Resultados
+
+## Publicações Realizadas 
+
+
