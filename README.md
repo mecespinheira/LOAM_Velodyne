@@ -43,7 +43,10 @@ A-LOAM (Advanced LOAM) é uma implementação avançada da técnica LOAM-Velodyn
 
 A estratégia F-LOAM (Fast LiDAR Odometry and Mapping), que busca uma solução de menor custo computacional e em tempo real, utilizando um método não iterativo, de dois estágios de compensação de distorção. 
 
-Os trés algoritmos foram testados em ambientes simulados e em ambientes reais, com o objetivo de analisar o desempenho das técnicas para estimação de localização e mapeamento. As figuras abaixo ilustram o arronju utilizado
+Os trés algoritmos foram testados em ambientes simulados e em ambientes reais, com o objetivo de analisar o desempenho das técnicas para estimação de localização e mapeamento. A Figura 1 abaixo ilustra o modelo do robô móvel Huusky UGV A200, utilizado no Gazebo, com o sensor LiDAR 3D Velodne VLP 16 posicionado sobre a base superior, e a Fugura 2 ilustram a imagem do arranjo real utilizado para aquisição de dados.
+
+Figura 1- 
+
 
 Para os ambientes simulados os resultados obtidos pelos algoritmos foram comparados com o Ground Truth do robô Husky UGV A200.
 
