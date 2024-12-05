@@ -1,16 +1,16 @@
-# Mapeamento 3D e Localização de Robôs Móveis utilizando Sensor LiDAR
+# 3D Mapping and Localization of Mobile Robots using LiDAR Sensor
 
-Este repositório apresenta os recursos utilizados para realização da dissertação de mestrado apresentada no Programa de Pós-Graduação em Engenharia Elétrica da Universidade Federal da Bahia.
+This repository presents the resources used to carry out the master's thesis presented in the Postgraduate Program in Electrical Engineering at the Federal University of Bahia.
 
-Entre as principais habilidades dos robôs autônomos, o mapeamento e a estimativa de pose, estão entre as tarefas fundamentais na robótica móvel. Um grande esforço tem sido aplicado pela comunidade acadêmica para alcançar, em tempo real, uma estimativa de localização e mapeamento simultâneos (SLAM) com dados provenientes de sensores visuais ou de sensores LiDAR.
+Among the main abilities of autonomous robots, mapping and pose estimation are among the fundamental tasks in mobile robotics. A great effort has been applied by the academic community to achieve, in real time, simultaneous localization and mapping estimation (SLAM) with data from visual sensors or LiDAR sensors.
 
-O objetivo da pesquisa foi estudar e implementar técnicas SLAM utilizando dados de sensores LiDAR, para obtenção do mapeamento e localização em ambientes internos (indoor) para tarefas de navegação com robôs móveis. Neste contexto foram implementadas
-as técnicas LeGO-LOAM, A-LOAM e F-LOAM, objetivando analisar a influência do volume de referenciais estáticos geométricas na qualidade do mapeamento e precisão da localização instantânea.
+The objective of the research was to study and implement SLAM techniques using data from LiDAR sensors, to obtain mapping and localization in indoor environments for navigation tasks with mobile robots. In this context,
+the LeGO-LOAM, A-LOAM and F-LOAM techniques, aiming to analyze the influence of the volume of geometric static references on the quality of mapping and accuracy of instantaneous location.
 
 
-## Dependências
+## Dependencies
   
-- [ROS](http://wiki.ros.org/ROS/Installation) (tested with indigo, kinetic, and melodic)
+- [ROS](http://wiki.ros.org/ROS/Installation) (tested with noetic)
 - [gtsam](https://github.com/borglab/gtsam/releases) (Georgia Tech Smoothing and Mapping library, 4.0.0-alpha2)
   ```
   wget -O ~/Downloads/gtsam.zip https://github.com/borglab/gtsam/archive/4.0.0-alpha2.zip
@@ -23,6 +23,7 @@ as técnicas LeGO-LOAM, A-LOAM e F-LOAM, objetivando analisar a influência do v
 - [Ceres Solver](http://ceres-solver.org/installation.html)
 
 - [PCL](http://www.pointclouds.org/downloads/linux.html)
+
 
 ## Recursos Utilizados
 
