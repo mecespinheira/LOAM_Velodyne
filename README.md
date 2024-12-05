@@ -54,14 +54,21 @@ Os trés algoritmos foram testados em ambientes simulados e em ambientes reais, 
 </p>
 
 <p align='center'>
-    Figure 2- Robô Husky equipamento com sensor LiDAR Velodyne VLP 16.
+    Figure 2- Husky robot equipment with Velodyne VLP 16 LiDAR sensor.
 </p>
 <p align='center'>
     <img src="/Images/Husky_LAR_1.jpeg" alt="drawing" width="400"/>
 </p>
 
 
-Para os ambientes simulados os resultados obtidos pelos algoritmos foram comparados com o Ground Truth do robô Husky UGV A200.
+Para os ambientes simulados os resultados obtidos pelos algoritmos foram comparados com o Ground Truth do robô Husky UGV A200. Para os ambientes reais foi utilizado o sistema de localização Optitrackm que conforme apresentado na Figura 3, é composto por um conjunto de câmeras capazes de detectar a localização dos marcadores esféricos que foram posicionados próximo ao sensor LiDAR 3D Velodyne VLP 16.
+
+<p align='center'>
+    Figure 3- Robô Husky equipamento com sensor LiDAR Velodyne VLP 16.
+</p>
+<p align='center'>
+    <img src="/Images/Cameras_Optitrack.jpeg" alt="drawing" width="400"/>
+</p>
 
 
 
