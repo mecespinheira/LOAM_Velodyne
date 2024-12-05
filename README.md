@@ -25,7 +25,7 @@ the LeGO-LOAM, A-LOAM and F-LOAM techniques, aiming to analyze the influence of 
 - [PCL](http://www.pointclouds.org/downloads/linux.html)
 
 
-## Recursos Utilizados
+## Resources
 
 Falar dos algoritmos utilizados
 
