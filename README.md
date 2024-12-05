@@ -43,12 +43,12 @@ Falar dos mundos criados e motivação
 Explicar o passo a passo para realizar as simulações 
 
 
-## Resultados
+## Results:
 
 Resultados
 
 
-## Publicações Realizadas 
+## Publications: 
 
 An article with the partial results of this dissertation was presented at the 26th International Conference on Climbing and Walking Robots and the Support Technologies for Mobile Machines, held in 2023 in the city of Florianópolis-SC.
 
