@@ -38,11 +38,6 @@ Falar dos recursos de simulação
 Falar dos mundos criados e motivação
 
 
-## Como rodar os arquivos
-
-Explicar o passo a passo para realizar as simulações 
-
-
 ## Results:
 
 Resultados
