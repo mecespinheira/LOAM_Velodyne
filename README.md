@@ -52,5 +52,6 @@ Resultados
 
 An article with the partial results of this dissertation was presented at the 26th International Conference on Climbing and Walking Robots and the Support Technologies for Mobile Machines, held in 2023 in the city of Florianópolis-SC.
 
+### Reference for access:
 de Carvalho, M.E.C., Ribeiro, T.T., Conceicao, A.G.S. (2024). Comparative Analysis of LiDAR SLAM Techniques in Simulated Environments in ROS Gazebo. In: Youssef, E.S.E., Tokhi, M.O., Silva, M.F., Rincon, L.M. (eds) Synergetic Cooperation between Robots and Humans. CLAWAR 2023. Lecture Notes in Networks and Systems, vol 811. Springer, Cham.
 
