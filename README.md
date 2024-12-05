@@ -1,12 +1,17 @@
 # 3D Mapping and Localization of Mobile Robots using LiDAR Sensor
 
-This repository presents the resources used to carry out the master's thesis presented in the Postgraduate Program in Electrical Engineering at the Federal University of Bahia.
+This repository presents the resources used to carry out the master's thesis presented in the Postgraduate Program in Electrical Engineering at the Federal University of Bahia, Salvador, Brazil.
 
 Among the main abilities of autonomous robots, mapping and pose estimation are among the fundamental tasks in mobile robotics. A great effort has been applied by the academic community to achieve, in real time, simultaneous localization and mapping estimation (SLAM) with data from visual sensors or LiDAR sensors.
 
 The objective of the research was to study and implement SLAM techniques using data from LiDAR sensors, to obtain mapping and localization in indoor environments for navigation tasks with mobile robots. In this context,
 the LeGO-LOAM, A-LOAM and F-LOAM techniques, aiming to analyze the influence of the volume of geometric static references on the quality of mapping and accuracy of instantaneous location.
 
+## Author Information
+
+Authors: Marcelo Espinheira Cravo de Carvalho, André Gustavo Scolari Conceição and Tiago Trindade Ribeiro
+
+M. E. C. de Carvalho, A. G. S. Conceiçãoo and T. T. Ribeiro are from the LaR - Robotics Laboratory, Department of Electrical and Computer Engineering, Federal University of Bahia, Salvador, Brazil. E-mails: mec.espinheira@gmail.com, andre.gustavo@ufba.br, tiagotr@ufba.br. 
 
 ## Dependencies
   
@@ -21,8 +26,10 @@ the LeGO-LOAM, A-LOAM and F-LOAM techniques, aiming to analyze the influence of 
   sudo make install
   ```
 - [Ceres Solver](http://ceres-solver.org/installation.html)
-
 - [PCL](http://www.pointclouds.org/downloads/linux.html)
+- [LeGO-LOAM algorithm](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM)
+- [A-LOAM algorithm](https://github.com/HKUST-Aerial-Robotics/A-LOAM)
+- [F-LOAM algorithm](https://github.com/wh200720041/floam)
 
 
 ## Resources
