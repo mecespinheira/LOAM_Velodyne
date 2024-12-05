@@ -27,6 +27,7 @@ M. E. C. de Carvalho, A. G. S. Conceiçãoo and T. T. Ribeiro are from the LaR -
   ```
 - [Ceres Solver](http://ceres-solver.org/installation.html)
 - [PCL](http://www.pointclouds.org/downloads/linux.html)
+- [Clearpath Husky](https://github.com/husky/husky)
 - [LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM)
 - [A-LOAM](https://github.com/HKUST-Aerial-Robotics/A-LOAM)
 - [F-LOAM](https://github.com/wh200720041/floam)
@@ -34,7 +35,19 @@ M. E. C. de Carvalho, A. G. S. Conceiçãoo and T. T. Ribeiro are from the LaR -
 
 ## Resources
 
-Falar dos algoritmos utilizados
+Para a realização deste trabalho foram utilizados três variantes do algoritmo LOAM-Velodyne, que é uma versão adaptada para sensor Velodyne do algoritmo desenvolvido por Zhang e Singh (2017).
+
+A técnica LeGO-LOAM (Lightweight and Ground Optimized LOAM) apresentada por Shan and Englot (2018) é uma versão mais leve do LOAM, otimizada para veículos terrestres que obtém estimativas de pose online, podendo ser utilizada em um sistema embarcado de baixo consumo energético
+
+A-LOAM (Advanced LOAM) é uma implementação avançada da técnica LOAM-Velodyne, com o uso de Eigen e Ceres Solver para simplificar a estrutura do código.
+
+A estratégia F-LOAM (Fast LiDAR Odometry and Mapping), que busca uma solução de menor custo computacional e em tempo real, utilizando um método não iterativo, de dois estágios de compensação de distorção. 
+
+Os trés algoritmos foram testados em ambientes simulados e em ambientes reais, com o objetivo de analisar o desempenho das técnicas para estimação de localização e mapeamento. As figuras abaixo ilustram o arronju utilizado
+
+Para os ambientes simulados os resultados obtidos pelos algoritmos foram comparados com o Ground Truth do robô Husky UGV A200.
+
+
 
 Falar do Optitrack
 
