@@ -47,8 +47,6 @@ Os trés algoritmos foram testados em ambientes simulados e em ambientes reais, 
 
 <p align='center'>
     Figura 1- Modelo do robô móvel Husky UGV A200.
-</p>
-<p align='center'>
     <img src="/Images/Husky_UGV_A200.png" alt="drawing" width="400"/>
 </p>
 
