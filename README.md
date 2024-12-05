@@ -45,8 +45,9 @@ A estratégia F-LOAM (Fast LiDAR Odometry and Mapping), que busca uma solução 
 
 Os trés algoritmos foram testados em ambientes simulados e em ambientes reais, com o objetivo de analisar o desempenho das técnicas para estimação de localização e mapeamento. A Figura 1 abaixo ilustra o modelo do robô móvel Huusky UGV A200, utilizado no Gazebo, com o sensor LiDAR 3D Velodne VLP 16 posicionado sobre a base superior, e a Fugura 2 ilustram a imagem do arranjo real utilizado para aquisição de dados.
 
-Figura 1- Modelo do robô móvel Husky UGV A200.
-
+<p align='center'>
+    Figura 1- Modelo do robô móvel Husky UGV A200.
+</p>
 <p align='center'>
     <img src="/Images/Husky_UGV_A200.png" alt="drawing" width="400"/>
 </p>
