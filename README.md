@@ -10,7 +10,19 @@ as técnicas LeGO-LOAM, A-LOAM e F-LOAM, objetivando analisar a influência do v
 
 ## Dependências
   
-Apresentar todos os recursos necessários para rodar os algoritmos (utilizar os githubs como referência para apresentação das dependências)
+- [ROS](http://wiki.ros.org/ROS/Installation) (tested with indigo, kinetic, and melodic)
+- [gtsam](https://github.com/borglab/gtsam/releases) (Georgia Tech Smoothing and Mapping library, 4.0.0-alpha2)
+  ```
+  wget -O ~/Downloads/gtsam.zip https://github.com/borglab/gtsam/archive/4.0.0-alpha2.zip
+  cd ~/Downloads/ && unzip gtsam.zip -d ~/Downloads/
+  cd ~/Downloads/gtsam-4.0.0-alpha2/
+  mkdir build && cd build
+  cmake ..
+  sudo make install
+  ```
+- [Ceres Solver](http://ceres-solver.org/installation.html)
+
+- [PCL](http://www.pointclouds.org/downloads/linux.html)
 
 ## Recursos Utilizados
 
