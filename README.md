@@ -27,9 +27,9 @@ M. E. C. de Carvalho, A. G. S. Conceiçãoo and T. T. Ribeiro are from the LaR -
   ```
 - [Ceres Solver](http://ceres-solver.org/installation.html)
 - [PCL](http://www.pointclouds.org/downloads/linux.html)
-- [LeGO-LOAM algorithm](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM)
-- [A-LOAM algorithm](https://github.com/HKUST-Aerial-Robotics/A-LOAM)
-- [F-LOAM algorithm](https://github.com/wh200720041/floam)
+- [LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM)
+- [A-LOAM](https://github.com/HKUST-Aerial-Robotics/A-LOAM)
+- [F-LOAM](https://github.com/wh200720041/floam)
 
 
 ## Resources
