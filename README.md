@@ -13,7 +13,7 @@ Authors: Marcelo Espinheira Cravo de Carvalho, André Gustavo Scolari Conceiçã
 
 M. E. C. de Carvalho, A. G. S. Conceiçãoo and T. T. Ribeiro are from the LaR - Robotics Laboratory, Department of Electrical and Computer Engineering, Federal University of Bahia, Salvador, Brazil. E-mails: mec.espinheira@gmail.com, andre.gustavo@ufba.br, tiagotr@ufba.br. 
 
-## Dependencies
+## Prerequisites
   
 - [ROS](http://wiki.ros.org/ROS/Installation) (tested with noetic)
 - [gtsam](https://github.com/borglab/gtsam/releases) (Georgia Tech Smoothing and Mapping library, 4.0.0-alpha2)
