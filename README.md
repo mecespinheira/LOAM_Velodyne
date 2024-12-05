@@ -53,7 +53,12 @@ Os trés algoritmos foram testados em ambientes simulados e em ambientes reais, 
     <img src="/Images/Husky_UGV_A200.png" alt="drawing" width="400"/>
 </p>
 
-
+<p align='center'>
+    Figure 2- Robô Husky equipamento com sensor LiDAR Velodyne VLP 16.
+</p>
+<p align='center'>
+    <img src="/Images/Husky_LAR_1.jpeg" alt="drawing" width="400"/>
+</p>
 
 
 Para os ambientes simulados os resultados obtidos pelos algoritmos foram comparados com o Ground Truth do robô Husky UGV A200.
