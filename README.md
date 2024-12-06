@@ -71,19 +71,48 @@ Para os ambientes simulados os resultados obtidos pelos algoritmos foram compara
 </p>
 
 
-
-Falar do Optitrack
-
-Falar do Velodyne
-
-Falar dos recursos de simulação
-
 Falar dos mundos criados e motivação
+
+
+
+<p align='center'>
+    Figure 4- Straight hallway without window.
+</p>
+<p align='center'>
+    <img src="/Images/Hall_without_window.png" alt="drawing" width="400"/>
+</p>
+
+
+<p align='center'>
+    Figure 5- Straight hallway with window.
+</p>
+<p align='center'>
+    <img src="/Images/Hall_with_window.png" alt="drawing" width="400"/>
+</p>
+
+
+<p align='center'>
+    Figure 6- Closed square corridor without window.
+</p>
+<p align='center'>
+    <img src="/Images/Hall_closed_without_window.png" alt="drawing" width="400"/>
+</p>
+
+
+
 
 
 ## Results:
 
 Resultados
+
+<p align='center'>
+    Figure XX- Robô Husky equipamento com sensor LiDAR Velodyne VLP 16.
+</p>
+<p align='center'>
+    <img src="/Images/Cameras_Optitrack.jpeg" alt="drawing" width="400"/>
+</p>
+
 
 
 ## Publications: 
