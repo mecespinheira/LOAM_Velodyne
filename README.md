@@ -96,7 +96,7 @@ Para avaliação do desempenho dos algoritmos LiDAR SLAM, em ambientes simulados
     <img src="/Images/Hall_closed_without_window.png" alt="drawing" width="400"/>
 </p>
 
-Para análise dos algoritmos em ambientes simulados também foi utilizado um ambiente desenvolvido no Gazebo que apresenta as mesmas dimensões e as mesma disposição de mesas e cadeiras que o encontrado no Laboratório de Robótica da Universidade Federal da Bahia, conforme apresentado na Figura 7. 
+Para análise dos algoritmos em ambientes simulados também foi utilizado um ambiente desenvolvido no Gazebo que apresenta as mesmas dimensões e as mesma disposição de mesas e cadeiras que o encontrado no Laboratório de Robótica (LaR) da Universidade Federal da Bahia, conforme apresentado na Figura 7. 
 
 <p align='center'>
     Figure 7- Closed square corridor without window.
