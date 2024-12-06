@@ -43,7 +43,7 @@ A-LOAM (Advanced LOAM) é uma implementação avançada da técnica LOAM-Velodyn
 
 A estratégia F-LOAM (Fast LiDAR Odometry and Mapping), que busca uma solução de menor custo computacional e em tempo real, utilizando um método não iterativo, de dois estágios de compensação de distorção. 
 
-Os trés algoritmos foram testados em ambientes simulados e em ambientes reais, com o objetivo de analisar o desempenho das técnicas para estimação de localização e mapeamento. A Figura 1 abaixo ilustra o modelo do robô móvel Huusky UGV A200, utilizado no Gazebo, com o sensor LiDAR 3D Velodne VLP 16 posicionado sobre a base superior, e a Fugura 2 ilustram a imagem do arranjo real utilizado para aquisição de dados.
+Os trés algoritmos foram testados em ambientes simulados e em ambientes reais, com o objetivo de analisar o desempenho das técnicas para estimação de localização e mapeamento. A Figura 1 abaixo ilustra o modelo do robô móvel Huusky UGV A200, utilizado no Gazebo, com o sensor LiDAR 3D Velodne VLP 16 posicionado sobre a base superior, e a Figura 2 ilustram a imagem do arranjo real utilizado para aquisição de dados.
 
 
 <p align='center'>
@@ -61,7 +61,7 @@ Os trés algoritmos foram testados em ambientes simulados e em ambientes reais, 
 </p>
 
 
-Para os ambientes simulados os resultados obtidos pelos algoritmos foram comparados com o Ground Truth do robô Husky UGV A200. Para os ambientes reais foi utilizado o sistema de localização Optitrackm que conforme apresentado na Figura 3, é composto por um conjunto de câmeras capazes de detectar a localização dos marcadores esféricos que foram posicionados próximo ao sensor LiDAR 3D Velodyne VLP 16.
+Para os ambientes simulados os resultados obtidos pelos algoritmos foram comparados com o Ground Truth do robô Husky UGV A200. Para os ambientes reais foi utilizado o sistema de localização Optitrack que conforme apresentado na Figura 3, é composto por um conjunto de câmeras capazes de detectar a localização dos marcadores esféricos que foram posicionados próximo ao sensor LiDAR 3D Velodyne VLP 16, conforme pode ser visualizado na Figura 2.
 
 <p align='center'>
     Figure 3- Robô Husky equipamento com sensor LiDAR Velodyne VLP 16.
