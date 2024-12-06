@@ -103,20 +103,30 @@ To analyze the algorithms in simulated environments, an environment developed in
     <img src="/Images/LaR.jpg" alt="drawing" width="400"/>
 </p>
 
-
 ## Results:
 
-Resultados
-
-
+Os resultados obtidos com as técnicas foram análisados a partir dos gráficos da trajetória gerada a partir da estimativa de localização instântanea e dos mapas tridimensionais gerados. As Figuras 8, 9 e 10 apresentam os gráficos das trajetórias estimadas pelos algoritmos no Laboratório de Robótica simulado, para os algortimos LeGO-LOAM, A-LOAM e F-LOAM respectivamente.
 
 <p align='center'>
-    Figure XX- Robô Husky equipamento com sensor LiDAR Velodyne VLP 16.
+    Figure 8- Point cloud mapping in the LaR environment simulated in Gazebo using the LeGO-LOAM algorithm.
 </p>
 <p align='center'>
-    <img src="/Images/Cameras_Optitrack.jpeg" alt="drawing" width="400"/>
+    <img src="/Images/Simulation_LeGO-LOAM.jpg" alt="drawing" width="400"/>
 </p>
 
+<p align='center'>
+    Figure 9- Point cloud mapping in the LaR environment simulated in Gazebo using the A-LOAM algorithm.
+</p>
+<p align='center'>
+    <img src="/Images/Simulation_A-LOAM.jpg" alt="drawing" width="400"/>
+</p>
+
+<p align='center'>
+    Figure 10- Point cloud mapping in the LaR environment simulated in Gazebo using the F-LOAM algorithm.
+</p>
+<p align='center'>
+    <img src="/Images/Simulation_F-LOAM.jpg" alt="drawing" width="400"/>
+</p>
 
 
 ## Publications: 
