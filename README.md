@@ -105,7 +105,7 @@ To analyze the algorithms in simulated environments, an environment developed in
 
 ## Results:
 
-Os resultados obtidos com as técnicas foram análisados a partir dos gráficos da trajetória gerada a partir da estimativa de localização instântanea e dos mapas tridimensionais gerados. As Figuras 8, 9 e 10 apresentam os gráficos das trajetórias estimadas pelos algoritmos no Laboratório de Robótica simulado, para os algortimos LeGO-LOAM, A-LOAM e F-LOAM respectivamente.
+The results obtained with the techniques were analyzed based on the trajectory graphs generated from the instantaneous location estimate and the three-dimensional maps generated. Figures 8, 9 and 10 present the graphs of the trajectories estimated by the algorithms in the simulated Robotics Laboratory, for the LeGO-LOAM, A-LOAM and F-LOAM algorithms respectively.
 
 <p align='center'>
     Figure 8- Point cloud mapping in the LaR environment simulated in Gazebo using the LeGO-LOAM algorithm.
@@ -126,6 +126,29 @@ Os resultados obtidos com as técnicas foram análisados a partir dos gráficos 
 </p>
 <p align='center'>
     <img src="/Images/Simulation_F-LOAM.jpg" alt="drawing" width="400"/>
+</p>
+
+As Figuras 11, 12 e 13, apresentam os resultados de gráficos de trajetória e mapeamento para o Laboratório de Robótica real, para os algoritmos LeGO-LOAM, A-LOAM e F-LOAM, respectivamente.
+
+<p align='center'>
+    Figure 8- Point cloud mapping in the real LaR environment using the LeGO-LOAM algorithm.
+</p>
+<p align='center'>
+    <img src="/Images/Real_LeGO_LOAM.jpg" alt="drawing" width="400"/>
+</p>
+
+<p align='center'>
+    Figure 9- Point cloud mapping in the real LaR environment using the A-LOAM algorithm.
+</p>
+<p align='center'>
+    <img src="/Images/Real_ALOAM.jpg" alt="drawing" width="400"/>
+</p>
+
+<p align='center'>
+    Figure 10- Point cloud mapping in the real LaR environment using the F-LOAM algorithm.
+</p>
+<p align='center'>
+    <img src="/Images/Real_FLOAM.jpg" alt="drawing" width="400"/>
 </p>
 
 
