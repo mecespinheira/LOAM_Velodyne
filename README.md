@@ -128,7 +128,7 @@ The results obtained with the techniques were analyzed based on the trajectory g
     <img src="/Images/Simulation_F-LOAM.jpg" alt="drawing" width="400"/>
 </p>
 
-As Figuras 11, 12 e 13, apresentam os resultados de gráficos de trajetória e mapeamento para o Laboratório de Robótica real, para os algoritmos LeGO-LOAM, A-LOAM e F-LOAM, respectivamente.
+Figures 11, 12 and 13 present the results of trajectory graphs and mapping for the real Robotics Laboratory, for the LeGO-LOAM, A-LOAM and F-LOAM algorithms, respectively.
 
 <p align='center'>
     Figure 8- Point cloud mapping in the real LaR environment using the LeGO-LOAM algorithm.
