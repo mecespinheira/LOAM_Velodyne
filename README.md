@@ -35,15 +35,15 @@ M. E. C. de Carvalho, A. G. S. Conceiçãoo and T. T. Ribeiro are from the LaR -
 
 ## Resources
 
-Para a realização deste trabalho foram utilizados três variantes do algoritmo LOAM-Velodyne, que é uma versão adaptada para sensor Velodyne do algoritmo desenvolvido por Zhang e Singh (2017).
+To carry out this work, three variants of the LOAM-Velodyne algorithm were used, which is a version adapted for the Velodyne sensor of the algorithm developed by Zhang and Singh (2017).
 
-A técnica LeGO-LOAM (Lightweight and Ground Optimized LOAM) apresentada por Shan and Englot (2018) é uma versão mais leve do LOAM, otimizada para veículos terrestres que obtém estimativas de pose online, podendo ser utilizada em um sistema embarcado de baixo consumo energético
+The [LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM) (Lightweight and Ground Optimized LOAM) technique presented by Shan and Englot (2018) is a lighter version of LOAM, optimized for ground vehicles that obtains online pose estimates, which can be used in a low-energy embedded system
 
-A-LOAM (Advanced LOAM) é uma implementação avançada da técnica LOAM-Velodyne, com o uso de Eigen e Ceres Solver para simplificar a estrutura do código.
+[A-LOAM](https://github.com/HKUST-Aerial-Robotics/A-LOAM) (Advanced LOAM) is an advanced implementation of the LOAM-Velodyne technique, using Eigen and Ceres Solver to simplify the structure of the code.
 
-A estratégia F-LOAM (Fast LiDAR Odometry and Mapping), que busca uma solução de menor custo computacional e em tempo real, utilizando um método não iterativo, de dois estágios de compensação de distorção. 
+The [F-LOAM](https://github.com/wh200720041/floam) (Fast LiDAR Odometry and Mapping) strategy, which seeks a lower computational cost and real-time solution, using a non-iterative, two-stage method distortion compensation. 
 
-Os trés algoritmos foram testados em ambientes simulados e em ambientes reais, com o objetivo de analisar o desempenho das técnicas para estimação de localização e mapeamento. A Figura 1 abaixo ilustra o modelo do robô móvel Huusky UGV A200, utilizado no Gazebo, com o sensor LiDAR 3D Velodne VLP 16 posicionado sobre a base superior, e a Figura 2 ilustram a imagem do arranjo real utilizado para aquisição de dados.
+The three algorithms were tested in simulated and real environments, with the aim of analyzing the performance of the techniques for location estimation and mapping. Figure 1 below illustrates the Husky UGV A200 mobile robot model, available in the [Clearpath Husky](https://github.com/husky/husky) package , with the Velodne VLP 16 3D LiDAR sensor positioned on the upper base, and Figure 2 illustrates the image of the real array used for data acquisition.
 
 
 <p align='center'>
@@ -60,8 +60,7 @@ Os trés algoritmos foram testados em ambientes simulados e em ambientes reais, 
     <img src="/Images/Husky_LAR_1.jpeg" alt="drawing" width="400"/>
 </p>
 
-
-Para os ambientes simulados os resultados obtidos pelos algoritmos foram comparados com o Ground Truth do robô Husky UGV A200. Para os ambientes reais foi utilizado o sistema de localização Optitrack que conforme apresentado na Figura 3, é composto por um conjunto de câmeras capazes de detectar a localização dos marcadores esféricos que foram posicionados próximo ao sensor LiDAR 3D Velodyne VLP 16, conforme pode ser visualizado na Figura 2.
+For the simulated environments, the results obtained by the algorithms were compared with the Ground Truth of the Husky UGV A200 robot. For real environments, the Optitrack localization system was used, which, as shown in Figure 3, is composed of a set of cameras capable of detecting the location of spherical markers that were positioned close to the Velodyne VLP 16 3D LiDAR sensor, as can be seen in Figure 2.
 
 <p align='center'>
     Figure 3- Robô Husky equipamento com sensor LiDAR Velodyne VLP 16.
@@ -70,8 +69,7 @@ Para os ambientes simulados os resultados obtidos pelos algoritmos foram compara
     <img src="/Images/Cameras_Optitrack.jpeg" alt="drawing" width="400"/>
 </p>
 
-
-Para avaliação do desempenho dos algoritmos LiDAR SLAM, em ambientes simulados, foram utilizados quatro ambientes no simulador Gazebo. O objetivo foi avaliar o comportamento dos algoritmos em ambientes com poucas e com diversas features geométricas e a influência do deslocamento em linha reta e na presença de curvas. As Figuras 4, 5 e 6 ilustram os mundos criados no Gazebo.
+To evaluate the performance of the LiDAR SLAM algorithms, in simulated environments, four environments were used in the Gazebo simulator. The objective was to evaluate the behavior of the algorithms in environments with few and diverse geometric features and the influence of displacement in a straight line and in the presence of curves. Figures 4, 5 and 6 illustrate the worlds created in Gazebo.
 
 <p align='center'>
     Figure 4- Straight hallway without window.
@@ -96,21 +94,21 @@ Para avaliação do desempenho dos algoritmos LiDAR SLAM, em ambientes simulados
     <img src="/Images/Hall_closed_without_window.png" alt="drawing" width="400"/>
 </p>
 
-Para análise dos algoritmos em ambientes simulados também foi utilizado um ambiente desenvolvido no Gazebo que apresenta as mesmas dimensões e as mesma disposição de mesas e cadeiras que o encontrado no Laboratório de Robótica (LaR) da Universidade Federal da Bahia, conforme apresentado na Figura 7. 
+To analyze the algorithms in simulated environments, an environment developed in Gazebo was also used, which has the same dimensions and the same arrangement of tables and chairs as that found in the Robotics Laboratory (LaR) at the Federal University of Bahia, as shown in Figure 7. The performance analysis in a real environment was carried out in the university's real Robotics Laboratory, which allowed a comparative analysis between the performance of the algorithms for localization and mapping in simulated environments and in real environments.
 
 <p align='center'>
-    Figure 7- Closed square corridor without window.
+    Figure 7- Simulated environment of the Robotics Laboratory at the Federal University of Bahia.
 </p>
 <p align='center'>
     <img src="/Images/LaR.jpg" alt="drawing" width="400"/>
 </p>
 
 
-
-
 ## Results:
 
 Resultados
+
+
 
 <p align='center'>
     Figure XX- Robô Husky equipamento com sensor LiDAR Velodyne VLP 16.
