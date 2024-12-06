@@ -71,9 +71,7 @@ Para os ambientes simulados os resultados obtidos pelos algoritmos foram compara
 </p>
 
 
-Falar dos mundos criados e motivação
-
-
+Para avaliação do desempenho dos algoritmos LiDAR SLAM, em ambientes simulados, foram utilizados quatro ambientes no simulador Gazebo. O objetivo foi avaliar o comportamento dos algoritmos em ambientes com poucas e com diversas features geométricas e a influência do deslocamento em linha reta e na presença de curvas. As Figuras 4, 5 e 6 ilustram os mundos criados no Gazebo.
 
 <p align='center'>
     Figure 4- Straight hallway without window.
