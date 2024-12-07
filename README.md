@@ -76,7 +76,7 @@ To evaluate the performance of the LiDAR SLAM algorithms, in simulated environme
     Figure 4- Straight hallway without window.
 </p>
 <p align='center'>
-    <img src="/Images/Hall_without_window.png" alt="drawing" width="400"/>
+    <img src="/Images/Hall_without_window_.png" alt="drawing" width="400"/>
 </p>
 
 
