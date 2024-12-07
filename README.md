@@ -72,6 +72,12 @@ For the simulated environments, the results obtained by the algorithms were comp
 To evaluate the performance of the LiDAR SLAM algorithms, in simulated environments, four environments were used in the Gazebo simulator. The objective was to evaluate the behavior of the algorithms in environments with few and diverse geometric features and the influence of displacement in a straight line and in the presence of curves. Figures 4, 5 and 6 illustrate the worlds created in Gazebo.
 
 
+<p align='center'>
+    Figure 4- Straight hallway without window.
+</p>
+<p align='center'>
+    <img src="/Images/Hall_without_window.png" alt="drawing" width="400"/>
+</p>
 
 
 <p align='center'>
